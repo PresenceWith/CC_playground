@@ -29,7 +29,7 @@ from telegram.ext import (
 LOG_DIR = Path(__file__).parent / "logs"
 LOG_DIR.mkdir(exist_ok=True)
 
-logger = logging.getLogger("claude-launcher")
+logger = logging.getLogger("teleclaude")
 logger.setLevel(logging.INFO)
 
 # 5MB per file, keep 3 backups

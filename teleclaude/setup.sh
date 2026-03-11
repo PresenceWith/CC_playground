@@ -2,12 +2,12 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-PLIST_NAME="com.claude-launcher.plist"
+PLIST_NAME="com.teleclaude.plist"
 PLIST_SRC="$SCRIPT_DIR/$PLIST_NAME"
 PLIST_DST="$HOME/Library/LaunchAgents/$PLIST_NAME"
 LOG_DIR="$SCRIPT_DIR/logs"
 
-echo "=== Claude Code Telegram Launcher Setup ==="
+echo "=== Teleclaude Setup ==="
 echo ""
 
 # 1. Install Python dependencies

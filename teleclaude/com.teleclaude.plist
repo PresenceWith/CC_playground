@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.claude-launcher</string>
+    <string>com.teleclaude</string>
 
     <key>ProgramArguments</key>
     <array>
